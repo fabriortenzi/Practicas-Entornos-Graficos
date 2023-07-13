@@ -1,5 +1,5 @@
 # Practicas-Entornos-Graficos
-Resolucion de las practicas de la materia electiva Entornos Graficos
+Resolucion de las practicas de la materia electiva Entornos Graficos del segundo nivel de la carrera Ingenieria en Sistemas en la UTN - Facultad Regional Rosario
 
-Stack utilizado en las practicas
-!(https://i.pinimg.com/originals/52/2e/6b/522e6bc1a11d1726a35f81cbd979395f.jpg)
+## Stack utilizado en las practicas
+![image](https://clipart.info/images/ccovers/1499794875html-css-php-mysql-logo-png-transparent.png)
