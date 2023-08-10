@@ -60,15 +60,21 @@ El motor de visualización de HTML en los navegadores web modernos ejecutan el D
 
 EL HTML 4.01 Strict no permite marcado de presentación con el argumento de que debería usar CSS en su lugar para eso. Así es como luce el DOCTYPE Strict:
 
-```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">```
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
 
 Las DTD transicionales (Transitional DTD) permiten algunos elementos y atributos antiguos que están en desuso:
 
-```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">```
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
 
 Además, si está usando frames (marcos), para conseguir resultados válidos desde el validador SGML, necesitará el frameset DOCTYPE como el que sigue:
 
-```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">```
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+```
 
 ## 5. Qué son los metadatos y cómo se especifican en HTML?
 
