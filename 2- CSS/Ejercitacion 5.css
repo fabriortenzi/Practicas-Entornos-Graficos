@@ -1,0 +1,56 @@
+/* Ejercicio 1 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: red;
+}
+
+/* Ejercicio 2 */
+
+div p *[href] {
+  color: black;
+}
+
+/* Ejercicio 3 */
+
+ul:last-child {
+  color: yellow;
+}
+
+ul:last-child:link {
+  color: blue;
+}
+
+/* Ejercicio 4 */
+
+* {
+  color: green !important;
+}
+
+h1 * {
+  color: red;
+}
+
+/* Ejercicio 5 */
+
+h1[title] {
+  color: blue;
+}
+
+/* Ejercicio 6 */
+
+ol a {
+  text-decoration: none;
+}
+
+ol a:link {
+  color: blue;
+}
+
+ol a:visited {
+  color: blueviolet;
+}

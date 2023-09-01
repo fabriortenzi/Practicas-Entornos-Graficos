@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercitacion 3</title>
+  <style>
+    p.quitar {
+      color: red;
+    }
+
+    *.desarrollo {
+      font-size: 8px;
+    }
+
+    .importante {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Se aplica el segundo estilo -->
+  <p class="desarrollo">
+    En este primer párrafo trataremos lo siguiente:
+    <br/>xxxxxxxxxxxxxxxxxxxxxxxxx
+  </p>
+  <!-- Se aplica el primer estilo -->
+  <p class="quitar">
+    Este párrafo debe ser quitado de la obra…
+    <br/>xxxxxxxxxxxxxxxxxxxxxxxxx
+  </p>
+  <!-- No se aplica ningun estilo -->
+  <p>
+    En este otro párrafo trataremos otro tema:<br/>
+    xxxxxxxxxxxxxxxxxxxxxxxxx
+  </p>
+  <!-- Se aplica el tercer estilo -->
+  <p class="importante">
+    Y este es el párrafo más importante de la obra…
+    <br/>xxxxxxxxxxxxxxxxxxxxxxxxx
+  </p>
+  <!-- Toma el estilo por defecto del h1
+  No se aplica el primer estilo porque es para etiquetas p con clase .quitar -->
+  <h1 class="quitar">Este encabezado también debe ser quitado de la obra</h1>
+  <!-- Se aplican el primer y ultimo estilo simultaneamente -->
+  <p class="quitar importante">Se pueden aplicar varias clases a la vez</p>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercitacion 4</title>
+  <style>
+    * {
+      color:green; 
+    }
+
+    /*
+      El link tiene un color gris inicialmente,
+      luego de visitar las paginas son de color azul.
+      Al pasar el mouse por encima del link se pone de color fuchsia,
+      y al apretarlo se pone de color rojo.
+    */
+
+    a:link {
+      color:gray; 
+    }
+
+    a:visited {
+      color:blue;
+    }
+
+    a:hover {
+      color:fuchsia; 
+    }
+
+    a:active {
+      color:red;
+    }
+
+    p {
+      font-family: arial,helvetica;
+      font-size: 10px;
+      color:black; 
+    }
+
+    .contenido {
+      font-size: 14px;
+      font-weight: bold; 
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    El estilo en linea sobreescribe el font-weight de la clase .contenido,
+    se aplica el font-family del selector p y el font-size de la clase .contenido sobreescribe al del p,
+    el estilo del selector universal queda sobreescrito por el del p.
+  -->
+  <p class="contenido" style="font-weight: normal;">Este es un texto ...............</p>
+  <table>
+    <tr>
+      <td>Y esta es una tabla.......</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.google.com.ar">con un enlace</a></td>
+    </tr>
+  </table>
+  <!--
+    El estilo del div contenido se pasa a los elementos hijos por la herencia,
+    aunque estos luego tienen definidos propiedades individuales que hacen que algunas
+    de las propiedades del div se sobreescriban.
+  -->
+  <div class="contenido">
+    <p> Este es un texto................</p>
+    <table>
+      <tr>
+        <td>Y esta es una tabla.......</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.google.com.ar">con un enlace</a></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
